@@ -10,13 +10,11 @@ function mostrar()
 
 		//alert(estadoCivil);  es para testear que devuelve la ventana de seleccion
 
-		if ( edad <17 && estadoCivil != soltero); 
-		{
+		if (edad < 18 && estadoCivil != "Soltero") {
 
-			alert (" Es muy pequeño para NO ser soltero");
-
+			alert("Es muy pequeño para NO ser soltero.")
 		}
-
 //13/-07 no pude
+//24/07 el S
 
 }//FIN DE LA FUNCIÓN

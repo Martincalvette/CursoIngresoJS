@@ -7,33 +7,32 @@ y la resta de los tres en un unico ALERT */
 function mostrar()
 {
 	
-	var numero1;
-	var numero2;
-	var numero3;
-	var suma;
-	var promedio;
-	var resta;
+	var base;
+	var altura;
+	var superficie;
+	var perimetro;
 
-	prompt(" Ingrese numero 1 ")=numero1;
 
-	prompt(" Ingrese numero 1 ")=numero2;
+	base=prompt("ingrese base")
+	base=parseInt(base)
 
-	prompt(" Ingrese numero 1 ")=numero3;
+	altura= base / 2 +  
+	altura=parseInt(altura)
 
-	suma = parseInt(numero1+numero2+numero3);
 
-	promedio = parseInt(numero1*numero2*numero3 / 3);
+	perimetro= base *3
 
-	resta = parseInt(numero1-numero2-numero3);
- 
+	superficie= (base*altura) /2
 
-	alert( " la suma es" + suma " el promedio es " + promedio " la resta es " + resta)
+	alert (" el perimetro es " + perimetro + " y la base es " +base )
+
 
 	/*var base;
 	var	altura;	
 	var perimetro;
 	var superficie;
 
+ //PITAGORAS
 /*
 		base=prompt(" base ");
 		altura=prompt(" altura ");

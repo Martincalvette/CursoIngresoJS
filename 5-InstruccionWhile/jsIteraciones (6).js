@@ -1,7 +1,27 @@
 function mostrar()
 {
+	var numero;
+	var suma;
+	var promedio;
+	var contador;
+	var acumulador;
 
-	var contador=0;
+	contador=0;
+	acumulador=0;
+
+	while(contador<5)
+	{
+		numero=prompt("Ingrese un numero")
+		numero=parseInt(numero)
+		contador++;
+		acumulador = acumulador + numero;
+		acumulador=parseInt(acumulador)
+	}
+		promedio = acumulador / contador;
+		document.getElementById('suma').value= acumulador;
+		document.getElementById('promedio').value=promedio
+
+/*var contador=0;
 	var acumulador=0;
 	var suma;
 
@@ -12,16 +32,12 @@ function mostrar()
 	}
 		contador=parseInt (contador);
 
-		acumulador =  contador  
+		acumulador ==  contador  
+
+		suma =
+*/
 
 
-	alert (contador);
-//document.getElementById('suma').value=acumulador;
-//document.getElementById('promedio').value=acumulador/5;
-
-
-
-
-/*NO.
+//*NO.
 
 }//FIN DE LA FUNCIÓN

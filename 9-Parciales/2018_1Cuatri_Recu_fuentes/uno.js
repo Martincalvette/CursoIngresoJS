@@ -15,16 +15,18 @@ function mostrar()
 
 	base=prompt("ingrese base")
 	base=parseInt(base)
-
-	altura= base / 2 +  
+	altura=prompt("Ingrese altura")
 	altura=parseInt(altura)
+
+	perimetro= base * 3 
+	perimetro=parseInt(perimetro)
 
 
 	perimetro= base *3
 
 	superficie= (base*altura) /2
 
-	alert (" el perimetro es " + perimetro + " y la base es " +base )
+	alert (" el perimetro es " + perimetro + " y la superficie es " +superficie )
 
 
 	/*var base;
